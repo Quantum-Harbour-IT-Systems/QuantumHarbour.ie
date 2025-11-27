@@ -1,0 +1,117 @@
+{
+  "heroTitle": "Resources",
+  "heroSubtitle": "Free guides, checklists, and tools to help you manage IT and security",
+  "intro": "We believe in sharing knowledge. These resources are free to download and use — whether you're a client or not. If you find them helpful, we'd love to hear from you.",
+  "categories": [
+    {
+      "name": "Security & Compliance",
+      "resources": [
+        {
+          "id": "cyber-security-checklist",
+          "slug": "cyber-security-checklist-irish-smes",
+          "title": "Cyber Security Checklist for Irish SMEs",
+          "type": "checklist",
+          "description": "A practical one-page checklist covering the essential security measures every Irish SME should have in place. Perfect for a quick self-assessment or board presentation.",
+          "downloadUrl": "/assets/resources/cyber-security-checklist.pdf",
+          "requiresEmail": false,
+          "featured": true
+        },
+        {
+          "id": "disaster-checklist",
+          "slug": "it-disaster-preparedness-checklist",
+          "title": "IT Disaster Preparedness Checklist",
+          "type": "checklist",
+          "description": "Are you ready if disaster strikes? This checklist helps you assess your backup, recovery, and business continuity readiness. Hand it to management to start the conversation.",
+          "downloadUrl": "/assets/resources/disaster-checklist.pdf",
+          "requiresEmail": true,
+          "featured": true
+        },
+        {
+          "id": "password-policy-template",
+          "slug": "password-policy-template",
+          "title": "Password Policy Template",
+          "type": "template",
+          "description": "A ready-to-use password policy document for your organisation. Covers complexity requirements, MFA, password managers, and handling of shared credentials.",
+          "downloadUrl": "/assets/resources/password-policy-template.docx",
+          "requiresEmail": true,
+          "featured": false
+        },
+        {
+          "id": "incident-response-plan",
+          "slug": "incident-response-plan-template",
+          "title": "Incident Response Plan Template",
+          "type": "template",
+          "description": "A framework for documenting how your organisation will respond to security incidents. Includes roles, communication plans, and post-incident review processes.",
+          "downloadUrl": "/assets/resources/incident-response-template.docx",
+          "requiresEmail": true,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": "Business & Planning",
+      "resources": [
+        {
+          "id": "it-budget-template",
+          "slug": "it-budget-planning-template",
+          "title": "IT Budget Planning Template",
+          "type": "spreadsheet",
+          "description": "A comprehensive Excel template for planning your annual IT budget. Includes categories for hardware, software, services, and contingency. Pre-filled with typical SME line items.",
+          "downloadUrl": "/assets/resources/it-budget-template.xlsx",
+          "requiresEmail": true,
+          "featured": true
+        },
+        {
+          "id": "vendor-evaluation",
+          "slug": "msp-vendor-evaluation-scorecard",
+          "title": "MSP Vendor Evaluation Scorecard",
+          "type": "spreadsheet",
+          "description": "Comparing managed service providers? Use this scorecard to objectively evaluate and compare vendors across key criteria like support, security, and pricing.",
+          "downloadUrl": "/assets/resources/msp-evaluation-scorecard.xlsx",
+          "requiresEmail": false,
+          "featured": false
+        },
+        {
+          "id": "onboarding-checklist",
+          "slug": "new-employee-it-onboarding-checklist",
+          "title": "New Employee IT Onboarding Checklist",
+          "type": "checklist",
+          "description": "Ensure new starters have everything they need from day one. This checklist covers accounts, equipment, access, and security training requirements.",
+          "downloadUrl": "/assets/resources/it-onboarding-checklist.pdf",
+          "requiresEmail": false,
+          "featured": false
+        }
+      ]
+    },
+    {
+      "name": "Technical Guides",
+      "resources": [
+        {
+          "id": "m365-security-guide",
+          "slug": "microsoft-365-security-hardening-guide",
+          "title": "Microsoft 365 Security Hardening Guide",
+          "type": "guide",
+          "description": "Step-by-step guide to securing your Microsoft 365 tenant. Covers conditional access, MFA enforcement, email security, and SharePoint permissions.",
+          "downloadUrl": "/assets/resources/m365-security-guide.pdf",
+          "requiresEmail": true,
+          "featured": true
+        },
+        {
+          "id": "backup-testing-guide",
+          "slug": "backup-testing-procedures-guide",
+          "title": "Backup Testing Procedures Guide",
+          "type": "guide",
+          "description": "Your backups are only as good as your last successful restore. This guide covers how to properly test backups and document results for compliance.",
+          "downloadUrl": "/assets/resources/backup-testing-guide.pdf",
+          "requiresEmail": true,
+          "featured": false
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Need Help Implementing These?",
+    "description": "These resources are a great starting point, but implementing them properly takes expertise. We're here to help.",
+    "buttonText": "Talk to Us"
+  }
+}

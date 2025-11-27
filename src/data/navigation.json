@@ -2,7 +2,7 @@
   "mainNav": [
     { "label": "Services", "href": "/#services" },
     { "label": "Pricing", "href": "/#pricing" },
-    { "label": "Calculator", "href": "/calculator" },
+    { "label": "Case Studies", "href": "/case-studies" },
     { "label": "Sectors", "href": "/sectors" },
     { "label": "About", "href": "/#about" },
     { "label": "Contact", "href": "/#contact" }
@@ -12,9 +12,18 @@
       { "label": "Services", "href": "/#services" },
       { "label": "Pricing", "href": "/#pricing" },
       { "label": "Calculator", "href": "/calculator" },
-      { "label": "Sectors", "href": "/sectors" },
+      { "label": "Case Studies", "href": "/case-studies" },
+      { "label": "How We Work", "href": "/how-we-work" },
+      { "label": "FAQ", "href": "/faq" },
       { "label": "About", "href": "/#about" },
       { "label": "Contact", "href": "/#contact" }
+    ],
+    "resources": [
+      { "label": "Insights", "href": "/insights" },
+      { "label": "Resources", "href": "/resources" },
+      { "label": "Products", "href": "/products" },
+      { "label": "Partners", "href": "/partners" },
+      { "label": "Careers", "href": "/careers" }
     ],
     "sectors": [
       { "label": "Healthcare", "href": "/sectors/healthcare" },
@@ -23,6 +32,11 @@
       { "label": "Manufacturing", "href": "/sectors/manufacturing" },
       { "label": "Retail", "href": "/sectors/retail" },
       { "label": "Professional Services", "href": "/sectors/professional-services" }
+    ],
+    "clients": [
+      { "label": "Client Portal", "href": "/client-portal" },
+      { "label": "Support", "href": "/client-portal" },
+      { "label": "Resources", "href": "/resources" }
     ]
   }
 }

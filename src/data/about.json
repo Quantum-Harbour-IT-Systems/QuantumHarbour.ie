@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "About Us.",
+  "sectionSubtitle": "Built by Engineers. Trusted by Businesses.",
+  "intro": [
+    "Quantum Harbour began as an in-house IT partner for Irish SMEs and has grown into a trusted managed service provider supporting clients across Ireland and the UK.",
+    "We've combined deep technical experience with a commitment to honest, reliable service — the kind that business owners can actually depend on."
+  ],
+  "highlights": [
+    {
+      "icon": "team",
+      "text": "Locally based support team"
+    },
+    {
+      "icon": "shield",
+      "text": "Partnerships with top-tier cybersecurity vendors"
+    },
+    {
+      "icon": "building",
+      "text": "Industry experience across multiple sectors"
+    },
+    {
+      "icon": "certificate",
+      "text": "ISO-aligned best practices"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "heroTitle": "Our Products",
+  "heroSubtitle": "Purpose-built software solutions designed to streamline your operations",
+  "intro": "Beyond managed IT services, we develop specialized software products that address real industry challenges. Our products are built from hands-on experience working with businesses just like yours.",
+  "products": [
+    {
+      "id": "qmechanic",
+      "slug": "qmechanic",
+      "name": "qMechanic",
+      "tagline": "HGV Inspection & Job Card Platform",
+      "status": "available",
+      "description": "qMechanic is a comprehensive digital platform designed specifically for HGV workshops and fleet operators. It streamlines vehicle inspections, manages job cards, and keeps your compliance documentation organised and accessible.",
+      "features": [
+        {
+          "title": "Digital Inspections",
+          "description": "Complete DVSA-compliant inspections on tablet or mobile with photo capture and digital signatures"
+        },
+        {
+          "title": "Job Card Management",
+          "description": "Create, assign, and track repair jobs from start to finish with full audit trails"
+        },
+        {
+          "title": "Defect Tracking",
+          "description": "Log and monitor vehicle defects with severity ratings and resolution tracking"
+        },
+        {
+          "title": "Compliance Reports",
+          "description": "Generate inspection reports and compliance documentation instantly"
+        },
+        {
+          "title": "Fleet Overview",
+          "description": "Dashboard view of your entire fleet's maintenance status and upcoming inspections"
+        },
+        {
+          "title": "Workshop Scheduling",
+          "description": "Plan and schedule workshop capacity and technician assignments"
+        }
+      ],
+      "benefits": [
+        "Reduce paperwork and administrative burden",
+        "Ensure compliance with DVSA requirements",
+        "Improve workshop efficiency and throughput",
+        "Access records instantly from anywhere",
+        "Never miss an inspection deadline"
+      ],
+      "stats": [
+        { "value": "50%", "label": "Less Paperwork" },
+        { "value": "100%", "label": "Digital Records" },
+        { "value": "24/7", "label": "Access" }
+      ]
+    },
+    {
+      "id": "qhaul",
+      "slug": "qhaul",
+      "name": "qHaul",
+      "tagline": "Transport Management System",
+      "status": "coming-soon",
+      "description": "qHaul is our upcoming transport management system designed to give haulage operators complete control over their operations. From job booking to proof of delivery, qHaul streamlines every aspect of transport management.",
+      "features": [
+        {
+          "title": "Job Management",
+          "description": "Book, schedule, and manage transport jobs with customer and load details"
+        },
+        {
+          "title": "Driver App",
+          "description": "Mobile app for drivers with job details, navigation, and digital POD capture"
+        },
+        {
+          "title": "Real-Time Tracking",
+          "description": "Live visibility of vehicle locations and job status updates"
+        },
+        {
+          "title": "Customer Portal",
+          "description": "Self-service portal for customers to book jobs and track deliveries"
+        },
+        {
+          "title": "Invoicing Integration",
+          "description": "Automatic invoice generation based on completed jobs and rates"
+        },
+        {
+          "title": "Analytics Dashboard",
+          "description": "Insights into fleet utilisation, revenue, and operational efficiency"
+        }
+      ],
+      "benefits": [
+        "Streamline job booking and dispatch",
+        "Eliminate paper-based proof of delivery",
+        "Improve customer communication and visibility",
+        "Reduce admin time with automated invoicing",
+        "Make data-driven decisions with analytics"
+      ],
+      "stats": [
+        { "value": "2025", "label": "Launch Year" },
+        { "value": "End-to-End", "label": "Solution" },
+        { "value": "Cloud", "label": "Based" }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Interested in Our Products?",
+    "description": "Get in touch to learn more about qMechanic or register your interest in qHaul.",
+    "buttonText": "Contact Us"
+  }
+}

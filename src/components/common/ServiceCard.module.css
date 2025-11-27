@@ -14,6 +14,26 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+.cardLink {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.learnMore {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-sm);
+  color: var(--color-white);
+  opacity: 0.7;
+  margin-top: auto;
+  padding-top: var(--spacing-lg);
+  transition: opacity var(--transition-fast);
+}
+
+.cardLink:hover .learnMore {
+  opacity: 1;
+}
+
 .title {
   font-family: var(--font-heading);
   font-weight: var(--font-weight-bold);

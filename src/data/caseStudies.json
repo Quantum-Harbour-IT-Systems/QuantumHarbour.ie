@@ -1,0 +1,111 @@
+{
+  "heroTitle": "Case Studies",
+  "heroSubtitle": "Real results for real businesses — see how we've helped organisations like yours",
+  "intro": "We don't just talk about what we can do — we show it. These case studies demonstrate how Quantum Harbour has transformed IT operations for businesses across Ireland and the UK.",
+  "caseStudies": [
+    {
+      "id": "j-ryan-haulage",
+      "slug": "j-ryan-haulage-high-availability",
+      "title": "Keeping J Ryan Haulage Online with High-Availability Infrastructure",
+      "client": "J Ryan Haulage",
+      "sectorSlug": "retail",
+      "industry": "Transport & Logistics",
+      "services": ["backup-recovery", "update-management", "endpoint-protection"],
+      "summary": "Phased takeover of a two-site haulage operation, implementing high-availability servers and disaster recovery infrastructure in Germany to ensure business continuity.",
+      "heroImage": null,
+      "challenge": "J Ryan Haulage operates a critical transport operation across two sites with 105 users. Their existing IT infrastructure was fragile, with single points of failure throughout. Any significant downtime would halt deliveries, damage customer relationships, and directly impact revenue. They needed a partner who could stabilise their systems while planning for growth.",
+      "approach": [
+        "Conducted comprehensive IT audit across both sites to identify critical vulnerabilities",
+        "Implemented phased migration to avoid business disruption during transition",
+        "Deployed high-availability server infrastructure with automatic failover",
+        "Established disaster recovery replication to German data centre",
+        "Rolled out standardised endpoint protection and patch management",
+        "Created documented procedures and runbooks for common scenarios"
+      ],
+      "outcome": {
+        "stats": [
+          { "value": "90%", "label": "Downtime Reduction" },
+          { "value": "105", "label": "Users Supported" },
+          { "value": "2", "label": "Sites Connected" },
+          { "value": "<6min", "label": "DR Recovery Time" }
+        ],
+        "testimonial": {
+          "quote": "Quantum Harbour transformed our IT from a constant worry into something we barely have to think about. The HA setup means we've had zero unplanned outages since they took over.",
+          "author": "Operations Manager, J Ryan Haulage"
+        }
+      },
+      "featured": true
+    },
+    {
+      "id": "westside-medical",
+      "slug": "westside-medical-compliance",
+      "title": "HIPAA-Compliant Infrastructure for Westside Medical Centre",
+      "client": "Westside Medical Centre",
+      "sectorSlug": "healthcare",
+      "industry": "Healthcare",
+      "services": ["endpoint-protection", "backup-recovery", "security-training"],
+      "summary": "Complete security overhaul for a busy medical practice, achieving full compliance with healthcare data protection requirements while improving day-to-day operations.",
+      "heroImage": null,
+      "challenge": "Westside Medical Centre handles sensitive patient data daily across multiple practitioners. Their legacy systems weren't meeting modern compliance requirements, staff security awareness was low, and they had no tested backup or recovery procedures. An audit was looming and they needed to act fast.",
+      "approach": [
+        "Performed gap analysis against healthcare compliance frameworks",
+        "Implemented encrypted backup solution with verified restore testing",
+        "Deployed advanced endpoint protection with healthcare-specific policies",
+        "Rolled out mandatory security awareness training for all staff",
+        "Established identity and access management procedures",
+        "Created compliance documentation and audit trail systems"
+      ],
+      "outcome": {
+        "stats": [
+          { "value": "100%", "label": "Compliance Achieved" },
+          { "value": "45", "label": "Staff Trained" },
+          { "value": "0", "label": "Security Incidents" },
+          { "value": "Weekly", "label": "Backup Testing" }
+        ],
+        "testimonial": {
+          "quote": "We went from dreading our compliance audit to passing with flying colours. The staff training made a huge difference — everyone understands why security matters now.",
+          "author": "Practice Manager, Westside Medical Centre"
+        }
+      },
+      "featured": true
+    },
+    {
+      "id": "atlantic-logistics",
+      "slug": "atlantic-logistics-cloud-migration",
+      "title": "Cloud-First Transformation for Atlantic Logistics",
+      "client": "Atlantic Logistics",
+      "sectorSlug": "retail",
+      "industry": "Logistics",
+      "services": ["update-management", "backup-recovery", "dark-web-monitoring"],
+      "summary": "Migration from aging on-premise infrastructure to a modern cloud-first architecture, enabling remote work capabilities and dramatic cost savings.",
+      "heroImage": null,
+      "challenge": "Atlantic Logistics was running critical systems on aging servers that were increasingly expensive to maintain and impossible to access remotely. The COVID-19 pandemic exposed their lack of remote work capability, and hardware refresh costs were becoming prohibitive.",
+      "approach": [
+        "Audited existing workloads and categorised migration complexity",
+        "Designed hybrid cloud architecture balancing cost and performance",
+        "Executed phased migration with rollback capability at each stage",
+        "Implemented cloud-native backup and disaster recovery",
+        "Deployed secure remote access for all staff",
+        "Established ongoing optimisation and cost monitoring"
+      ],
+      "outcome": {
+        "stats": [
+          { "value": "40%", "label": "Cost Reduction" },
+          { "value": "100%", "label": "Remote Capable" },
+          { "value": "99.9%", "label": "Uptime" },
+          { "value": "0", "label": "Data Loss" }
+        ],
+        "testimonial": {
+          "quote": "The cloud migration paid for itself within 18 months. More importantly, when we needed everyone working from home, it just worked.",
+          "author": "Managing Director, Atlantic Logistics"
+        }
+      },
+      "featured": false
+    }
+  ],
+  "cta": {
+    "title": "Ready to Become Our Next Success Story?",
+    "description": "Let's discuss how we can transform your IT operations and deliver measurable results for your business.",
+    "buttonText": "Start the Conversation"
+  }
+}

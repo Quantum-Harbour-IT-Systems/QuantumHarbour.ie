@@ -1,0 +1,111 @@
+{
+  "heroTitle": "How We Work",
+  "heroSubtitle": "A clear, structured approach to transforming your IT operations",
+  "intro": "We don't just 'take over your IT' — we follow a proven process that stabilises your environment, reduces risk, and sets you up for long-term success. Here's exactly what to expect when you work with us.",
+  "phases": [
+    {
+      "step": 1,
+      "title": "Discovery & Audit",
+      "duration": "Week 1-2",
+      "description": "We start by understanding where you are. Our free IT audit covers your infrastructure, security posture, backup status, and pain points. No sales pressure — just an honest assessment of your current state.",
+      "activities": [
+        "Initial discovery call to understand your business",
+        "On-site or remote infrastructure assessment",
+        "Security vulnerability scan",
+        "Backup and recovery review",
+        "Documentation of existing systems and contracts",
+        "Stakeholder interviews"
+      ],
+      "deliverables": [
+        "IT Audit Report with findings and recommendations",
+        "Risk assessment with prioritised issues",
+        "Proposed service plan and pricing"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Stabilise",
+      "duration": "Week 2-4",
+      "description": "Before we can optimise, we need to stabilise. This phase addresses critical risks and gets foundational tools in place. We fix the things that are most likely to cause problems first.",
+      "activities": [
+        "Deploy monitoring and management agents",
+        "Implement or verify backup solutions",
+        "Address critical security vulnerabilities",
+        "Set up endpoint protection",
+        "Establish secure remote access",
+        "Create emergency contact procedures"
+      ],
+      "deliverables": [
+        "All endpoints under management",
+        "Verified working backups",
+        "Critical security gaps closed",
+        "24/7 monitoring active"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Standardise",
+      "duration": "Week 4-8",
+      "description": "With the foundation stable, we implement consistent standards across your environment. This is where you start seeing the benefits of proactive management — fewer issues, faster resolution, better documentation.",
+      "activities": [
+        "Roll out standardised security policies",
+        "Implement patch management schedules",
+        "Deploy security awareness training",
+        "Set up dark web monitoring",
+        "Document all systems and procedures",
+        "Establish regular maintenance windows",
+        "Configure alerting and escalation rules"
+      ],
+      "deliverables": [
+        "Complete system documentation",
+        "Security policies implemented",
+        "Training programme active",
+        "Maintenance schedules established"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Optimise",
+      "duration": "Ongoing",
+      "description": "Once stable and standardised, we focus on continuous improvement. Regular reviews identify opportunities to improve performance, reduce costs, and align IT with your business goals.",
+      "activities": [
+        "Monthly service reviews",
+        "Quarterly business reviews with stakeholders",
+        "Technology roadmap planning",
+        "Performance optimisation",
+        "Cost optimisation reviews",
+        "Proactive upgrade planning",
+        "Annual DR testing"
+      ],
+      "deliverables": [
+        "Monthly service reports",
+        "Quarterly business review presentations",
+        "Annual technology roadmap",
+        "Continuous improvement recommendations"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "title": "No Surprises",
+      "description": "We communicate proactively. You'll know about issues before they become problems, and you'll never be surprised by a bill."
+    },
+    {
+      "title": "Documentation First",
+      "description": "Everything is documented. If we get hit by a bus, another team could pick up where we left off. Your knowledge isn't locked in our heads."
+    },
+    {
+      "title": "Prevention Over Cure",
+      "description": "We'd rather spend time preventing problems than heroically fixing them. Less drama, more uptime."
+    },
+    {
+      "title": "Honest Advice",
+      "description": "We'll tell you what you need to hear, not what you want to hear. Sometimes that means recommending against spending money."
+    }
+  ],
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "The first step is a conversation. Book your free IT audit and let's see where you stand.",
+    "buttonText": "Book Your Free Audit"
+  }
+}

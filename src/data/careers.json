@@ -1,0 +1,72 @@
+{
+  "heroTitle": "Careers",
+  "heroSubtitle": "Join a team that takes IT seriously — and has fun doing it",
+  "intro": "Quantum Harbour is growing, and we're always interested in talking to talented people who share our values. Whether we're actively hiring or not, we'd love to hear from you.",
+  "about": {
+    "title": "Who We Are",
+    "description": "We're a managed service provider based in Ireland, supporting businesses across Ireland and the UK. We're small enough that everyone matters, but growing fast enough that there's real opportunity. Our team is made up of people who genuinely care about doing good work — not just closing tickets, but actually solving problems.",
+    "culture": [
+      {
+        "title": "No Blame Culture",
+        "description": "Mistakes happen. We focus on learning and fixing, not pointing fingers. If you broke it, you're probably the best person to fix it — and we'll help."
+      },
+      {
+        "title": "Remote-Friendly",
+        "description": "We have an office, but we don't mandate attendance. Work from where you're most productive. We care about results, not presenteeism."
+      },
+      {
+        "title": "Continuous Learning",
+        "description": "Technology moves fast. We invest in training, certifications, and giving people time to learn. If you want to grow, we'll support that."
+      },
+      {
+        "title": "Honest Communication",
+        "description": "No corporate speak, no politics. We say what we mean and mean what we say — with clients and with each other."
+      }
+    ]
+  },
+  "roles": {
+    "title": "Types of Roles",
+    "description": "We typically hire for the following types of positions. Even if we're not actively recruiting, we're always happy to receive CVs from strong candidates.",
+    "types": [
+      {
+        "title": "MSP Engineer",
+        "description": "The core of our service delivery. You'll handle escalated tickets, project work, and help maintain client environments. Strong Windows, networking, and troubleshooting skills required. Experience with RMM/PSA tools a plus."
+      },
+      {
+        "title": "Service Desk Analyst",
+        "description": "First point of contact for client issues. You'll triage tickets, handle common requests, and escalate appropriately. Great communication skills and genuine desire to help people required."
+      },
+      {
+        "title": "Field Technician",
+        "description": "On-site support for clients across Ireland. You'll handle hardware deployments, on-site troubleshooting, and be the face of Quantum Harbour at client locations. Clean driving licence required."
+      },
+      {
+        "title": "Security Specialist",
+        "description": "Focus on security tooling, incident response, and helping clients improve their security posture. Experience with EDR, SIEM, and security frameworks required."
+      },
+      {
+        "title": "Software Developer",
+        "description": "Building internal tools and client-facing products like qMechanic. Modern web technologies, API development, and database experience required."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "What We Offer",
+    "items": [
+      "Competitive salary based on experience",
+      "Flexible working arrangements",
+      "Training and certification budget",
+      "Hardware provided (laptop, monitors, etc.)",
+      "Pension contribution",
+      "25 days annual leave",
+      "Regular team events (optional, not forced fun)"
+    ]
+  },
+  "openPositions": [],
+  "cta": {
+    "title": "Interested?",
+    "description": "We're not always actively hiring, but we're always interested in meeting good people. Send us your CV and tell us a bit about yourself.",
+    "email": "careers@quantumharbour.ie",
+    "buttonText": "Get in Touch"
+  }
+}

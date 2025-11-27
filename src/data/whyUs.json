@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Why Choose Us?",
+  "sectionSubtitle": "Proactive IT That Builds Confidence, Not Chaos.",
+  "intro": "We believe IT should empower your business — not slow it down. That's why Quantum Harbour takes a proactive, prevention-first approach. From security and backups to updates and response, every part of our service is designed to protect uptime, reduce risk, and free your team to focus on what matters.",
+  "features": [
+    {
+      "icon": "clock",
+      "text": "24/7 monitoring and proactive maintenance"
+    },
+    {
+      "icon": "team",
+      "text": "Local engineers and a dedicated support team"
+    },
+    {
+      "icon": "money",
+      "text": "Predictable monthly pricing — no unexpected costs"
+    },
+    {
+      "icon": "truck",
+      "text": "Proven reliability across construction, logistics, and healthcare"
+    }
+  ]
+}

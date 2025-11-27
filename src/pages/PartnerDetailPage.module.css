@@ -1,0 +1,187 @@
+.heroBadge {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--partner-primary), var(--partner-secondary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--spacing-lg);
+}
+
+.badgeInitial {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: var(--color-white);
+  opacity: 0.9;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.serviceCard {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-white);
+  padding: var(--spacing-lg);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background var(--transition-base), border-color var(--transition-base);
+}
+
+.serviceCard:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.serviceCheck {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--partner-primary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.highlightsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.highlightCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xl);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background var(--transition-base), border-color var(--transition-base);
+}
+
+.highlightCard:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.highlightTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-sm);
+}
+
+.highlightDescription {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-white);
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+.ctaSection {
+  text-align: center;
+  padding: var(--spacing-3xl);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ctaTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-md);
+}
+
+.ctaDescription {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-white);
+  opacity: 0.8;
+  margin-bottom: var(--spacing-xl);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.secondaryButton {
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-white);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+}
+
+.secondaryButton:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .highlightsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroBadge {
+    width: 80px;
+    height: 80px;
+  }
+
+  .badgeInitial {
+    font-size: var(--text-3xl);
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaSection {
+    padding: var(--spacing-xl);
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+}

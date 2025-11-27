@@ -9,7 +9,7 @@ interface LinkItem {
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
-  const { quickLinks, sectors } = navigationData.footerLinks;
+  const { quickLinks, resources, sectors, clients } = navigationData.footerLinks;
 
   return (
     <footer className={styles.footer}>
@@ -37,6 +37,17 @@ export function Footer() {
           </div>
 
           <div className={styles.links}>
+            <h4 className={styles.linksTitle}>Resources</h4>
+            <ul className={styles.linksList}>
+              {resources.map((link: LinkItem) => (
+                <li key={link.href}>
+                  <Link to={link.href}>{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className={styles.links}>
             <h4 className={styles.linksTitle}>Sectors</h4>
             <ul className={styles.linksList}>
               {sectors.map((link: LinkItem) => (
@@ -47,13 +58,14 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className={styles.contact}>
-            <h4 className={styles.linksTitle}>Contact</h4>
+          <div className={styles.links}>
+            <h4 className={styles.linksTitle}>For Clients</h4>
             <ul className={styles.linksList}>
-              <li>
-                <a href="mailto:info@quantumharbour.ie">info@quantumharbour.ie</a>
-              </li>
-              <li>Ireland & UK</li>
+              {clients.map((link: LinkItem) => (
+                <li key={link.href + link.label}>
+                  <Link to={link.href}>{link.label}</Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

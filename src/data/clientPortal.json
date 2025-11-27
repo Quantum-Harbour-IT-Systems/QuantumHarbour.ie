@@ -1,0 +1,99 @@
+{
+  "heroTitle": "Client Portal",
+  "heroSubtitle": "Access support, resources, and tools for Quantum Harbour clients",
+  "intro": "Welcome to the Quantum Harbour client area. Use the links below to access support, open tickets, or get remote assistance.",
+  "sections": [
+    {
+      "title": "Support & Tickets",
+      "items": [
+        {
+          "title": "Open Support Portal",
+          "description": "Log in to view your tickets, submit new requests, and track progress on open issues.",
+          "icon": "ticket",
+          "linkType": "external",
+          "url": "https://portal.quantumharbour.ie",
+          "buttonText": "Open Portal"
+        },
+        {
+          "title": "Submit a Ticket",
+          "description": "Create a new support request directly. You'll receive a ticket number and email confirmation.",
+          "icon": "plus",
+          "linkType": "external",
+          "url": "https://portal.quantumharbour.ie/new-ticket",
+          "buttonText": "New Ticket"
+        },
+        {
+          "title": "Email Support",
+          "description": "Send an email to our support team. Emails are automatically converted to tickets.",
+          "icon": "email",
+          "linkType": "mailto",
+          "url": "mailto:support@quantumharbour.ie",
+          "buttonText": "Email Us"
+        }
+      ]
+    },
+    {
+      "title": "Remote Support",
+      "items": [
+        {
+          "title": "Remote Assistance",
+          "description": "Allow our technicians to connect to your computer securely for hands-on troubleshooting.",
+          "icon": "remote",
+          "linkType": "external",
+          "url": "https://remote.quantumharbour.ie",
+          "buttonText": "Start Session"
+        },
+        {
+          "title": "Download Agent",
+          "description": "Download and install our remote monitoring agent if it's not already on your device.",
+          "icon": "download",
+          "linkType": "external",
+          "url": "https://portal.quantumharbour.ie/downloads/agent",
+          "buttonText": "Download"
+        }
+      ]
+    },
+    {
+      "title": "System Status",
+      "items": [
+        {
+          "title": "Service Status",
+          "description": "Check the current status of Quantum Harbour services and any ongoing incidents.",
+          "icon": "status",
+          "linkType": "external",
+          "url": "https://status.quantumharbour.ie",
+          "buttonText": "View Status"
+        }
+      ]
+    }
+  ],
+  "emergencySupport": {
+    "title": "Severity 1 Emergency?",
+    "description": "If your business is down or you're experiencing a critical security incident, don't wait for a ticket response.",
+    "instructions": [
+      "Call our emergency line immediately",
+      "Have your company name and brief description ready",
+      "Stay by your phone for callback if needed"
+    ],
+    "phone": "+353 91 123 456",
+    "note": "Sev 1 calls are answered 24/7. Use this line only for genuine business-critical emergencies."
+  },
+  "resources": {
+    "title": "Client Resources",
+    "description": "Helpful guides and documentation for Quantum Harbour clients.",
+    "links": [
+      {
+        "title": "How to Submit a Good Support Ticket",
+        "url": "/resources/support-ticket-guide"
+      },
+      {
+        "title": "Security Best Practices Guide",
+        "url": "/resources/security-best-practices"
+      },
+      {
+        "title": "Understanding Your Monthly Report",
+        "url": "/resources/monthly-report-guide"
+      }
+    ]
+  }
+}

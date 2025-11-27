@@ -1,0 +1,164 @@
+.description {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: var(--color-white);
+  opacity: 0.9;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cultureGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.cultureCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xl);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cultureTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-sm);
+}
+
+.cultureDescription {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-white);
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+.rolesGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+}
+
+.roleCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xl);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.roleTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-sm);
+}
+
+.roleDescription {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-white);
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+.benefitsCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xl);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+  margin: var(--spacing-xl) auto 0;
+}
+
+.benefitsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-sm);
+}
+
+.benefitsList li {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-white);
+  opacity: 0.8;
+  padding-left: var(--spacing-lg);
+  position: relative;
+}
+
+.benefitsList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #22c55e;
+}
+
+.ctaSection {
+  text-align: center;
+  padding: var(--spacing-3xl);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ctaTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-md);
+}
+
+.ctaDescription {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-white);
+  opacity: 0.8;
+  margin-bottom: var(--spacing-lg);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaEmail {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  text-decoration: none;
+  margin-bottom: var(--spacing-xl);
+  transition: opacity var(--transition-fast);
+}
+
+.ctaEmail:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .cultureGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefitsList {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaSection {
+    padding: var(--spacing-xl);
+  }
+
+  .ctaEmail {
+    font-size: var(--text-lg);
+  }
+}
