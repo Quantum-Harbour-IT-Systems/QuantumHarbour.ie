@@ -1,0 +1,113 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 127px;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #072a59 0%, #0a3a7a 50%, #072a59 100%);
+  z-index: -2;
+}
+
+.background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(100, 150, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(50, 100, 200, 0.1) 0%, transparent 50%);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(7, 42, 89, 0.3) 0%,
+    rgba(7, 42, 89, 0.7) 100%
+  );
+  z-index: -1;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-5xl);
+  color: var(--color-white);
+  line-height: 1.15;
+  max-width: 850px;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.content {
+  max-width: 660px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.description {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--text-base);
+  color: var(--color-white);
+  line-height: 1.7;
+}
+
+.description:not(:last-child) {
+  margin-bottom: var(--spacing-sm);
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: 100px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title br {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 120px 0 var(--spacing-3xl);
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .content {
+    padding: var(--spacing-lg);
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

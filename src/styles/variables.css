@@ -1,0 +1,72 @@
+:root {
+  /* Colors from Figma design */
+  --color-primary: #072a59;
+  --color-secondary: #190d4e;
+  --color-accent: #d9d9d9;
+  --color-white: #ffffff;
+  --color-text-muted: #949090;
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Font sizes */
+  --text-xs: 0.625rem;    /* 10px */
+  --text-sm: 0.9375rem;   /* 15px */
+  --text-base: 1.25rem;   /* 20px */
+  --text-lg: 1.5625rem;   /* 25px */
+  --text-xl: 1.875rem;    /* 30px */
+  --text-2xl: 2.5rem;     /* 40px */
+  --text-3xl: 3.125rem;   /* 50px */
+  --text-4xl: 3.75rem;    /* 60px */
+  --text-5xl: 4.0625rem;  /* 65px */
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+
+  /* Border radius */
+  --radius-md: 1.25rem;   /* 20px */
+
+  /* Container */
+  --container-max-width: 1200px;
+  --container-padding: 1.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+}
+
+/* Responsive typography scales */
+@media (max-width: 1024px) {
+  :root {
+    --text-5xl: 3rem;
+    --text-4xl: 2.5rem;
+    --text-3xl: 2rem;
+    --text-2xl: 1.75rem;
+    --text-xl: 1.5rem;
+    --text-lg: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-5xl: 2.25rem;
+    --text-4xl: 2rem;
+    --text-3xl: 1.75rem;
+    --text-2xl: 1.5rem;
+    --text-xl: 1.25rem;
+    --text-lg: 1.125rem;
+    --text-base: 1rem;
+  }
+}

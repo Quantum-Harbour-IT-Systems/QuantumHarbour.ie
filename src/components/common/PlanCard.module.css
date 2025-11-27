@@ -1,0 +1,123 @@
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: 2.5rem 3rem;
+  color: var(--color-primary);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.name {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-2xl);
+}
+
+.divider {
+  flex: 1;
+  height: 2px;
+  background-color: var(--color-primary);
+  opacity: 0.2;
+  min-width: 50px;
+}
+
+.priceTag {
+  background-color: var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+}
+
+.price {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-xl);
+}
+
+.priceUnit {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-sm);
+  margin-left: 0.25rem;
+}
+
+.contactUs {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--text-xl);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-md) var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-sm);
+}
+
+.checkmark {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.highlight {
+  font-weight: var(--font-weight-bold);
+}
+
+.footnote {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .divider {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .priceTag {
+    align-self: flex-start;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "mainNav": [
+    { "label": "Services", "href": "/#services" },
+    { "label": "Pricing", "href": "/#pricing" },
+    { "label": "Calculator", "href": "/calculator" },
+    { "label": "Sectors", "href": "/sectors" },
+    { "label": "About", "href": "/#about" },
+    { "label": "Contact", "href": "/#contact" }
+  ],
+  "footerLinks": {
+    "quickLinks": [
+      { "label": "Services", "href": "/#services" },
+      { "label": "Pricing", "href": "/#pricing" },
+      { "label": "Calculator", "href": "/calculator" },
+      { "label": "Sectors", "href": "/sectors" },
+      { "label": "About", "href": "/#about" },
+      { "label": "Contact", "href": "/#contact" }
+    ],
+    "sectors": [
+      { "label": "Healthcare", "href": "/sectors/healthcare" },
+      { "label": "Financial Services", "href": "/sectors/financial-services" },
+      { "label": "Legal", "href": "/sectors/legal" },
+      { "label": "Manufacturing", "href": "/sectors/manufacturing" },
+      { "label": "Retail", "href": "/sectors/retail" },
+      { "label": "Professional Services", "href": "/sectors/professional-services" }
+    ]
+  }
+}
