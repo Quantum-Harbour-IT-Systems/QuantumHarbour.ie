@@ -1,0 +1,14 @@
+.section {
+  background-color: var(--color-primary);
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  color: var(--color-white);
+  opacity: 0.9;
+  line-height: 1.8;
+  max-width: 900px;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}

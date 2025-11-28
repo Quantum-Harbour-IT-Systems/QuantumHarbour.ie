@@ -1,0 +1,199 @@
+{
+  "id": "qhaul",
+  "slug": "qhaul",
+  "name": "qHaul",
+  "tagline": "Transport Management System",
+  "parentProduct": "qhaul",
+
+  "branding": {
+    "primaryColor": "#072a59",
+    "secondaryColor": "#190d4e",
+    "accentColor": "#d9d9d9",
+    "logo": "/products/qhaul/logo.svg"
+  },
+
+  "hero": {
+    "title": "Complete control over your transport operations —",
+    "titleLine2": "from booking to delivery.",
+    "description": "End-to-end transport management system for haulage operators. Job booking, driver apps, real-time tracking, and automated invoicing built for the demands of modern logistics.",
+    "ctaText": "Register Interest",
+    "ctaLink": "#contact",
+    "backgroundImage": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920"
+  },
+
+  "featureSections": [
+    {
+      "id": "dispatch",
+      "title": "qHaul Dispatch",
+      "subtitle": "Job Booking & Management",
+      "features": [
+        {
+          "title": "Job Management",
+          "description": "Book, schedule, and manage transport jobs with full customer and load details. Track every job from request to completion."
+        },
+        {
+          "title": "Smart Dispatch",
+          "description": "Intelligent job assignment based on driver availability, location, and vehicle capacity. Optimize routes automatically."
+        },
+        {
+          "title": "Customer Portal",
+          "description": "Self-service portal for customers to book jobs, track deliveries in real-time, and access their complete job history."
+        },
+        {
+          "title": "Rate Management",
+          "description": "Flexible rate cards for different customers, routes, and cargo types. Automatic pricing calculations on job creation."
+        },
+        {
+          "title": "Load Planning",
+          "description": "Plan and optimize vehicle loads with weight and dimension tracking. Ensure compliance and maximize efficiency."
+        },
+        {
+          "title": "Multi-Drop Routes",
+          "description": "Create complex multi-stop routes with optimized sequencing. Track each delivery point independently."
+        }
+      ]
+    },
+    {
+      "id": "driver",
+      "title": "qHaul Driver",
+      "subtitle": "Mobile App for Drivers",
+      "features": [
+        {
+          "title": "Job Details On-The-Go",
+          "description": "Drivers see all job details, customer info, and special instructions. Everything they need in their pocket."
+        },
+        {
+          "title": "Navigation Integration",
+          "description": "Built-in navigation with traffic-aware routing. One tap to start directions to pickup or delivery locations."
+        },
+        {
+          "title": "Digital POD Capture",
+          "description": "Electronic proof of delivery with signature capture, photo documentation, and timestamp verification."
+        },
+        {
+          "title": "Status Updates",
+          "description": "Real-time status updates from drivers. Office and customers always know exactly where jobs are."
+        }
+      ]
+    },
+    {
+      "id": "tracking",
+      "title": "qHaul Track",
+      "subtitle": "Real-Time Visibility",
+      "features": [
+        {
+          "title": "Live Vehicle Tracking",
+          "description": "Real-time GPS tracking of your entire fleet. See exactly where every vehicle is at any moment."
+        },
+        {
+          "title": "ETA Predictions",
+          "description": "Accurate arrival time predictions based on traffic, distance, and historical data. Keep customers informed."
+        },
+        {
+          "title": "Geofence Alerts",
+          "description": "Automatic notifications when vehicles enter or leave designated areas. Track arrivals and departures automatically."
+        },
+        {
+          "title": "Customer Tracking Links",
+          "description": "Share live tracking links with customers so they can monitor their deliveries in real-time."
+        }
+      ]
+    }
+  ],
+
+  "whyChoose": {
+    "title": "Why Choose qHaul?",
+    "subtitle": "Built for Haulage,",
+    "subtitleLine2": "By People Who Know the Road.",
+    "description": "qHaul was designed from the ground up for Irish and UK haulage companies. We understand the challenges of transport management — the constant communication, the paperwork, the pressure to deliver on time. qHaul eliminates the chaos and gives you complete control.",
+    "benefits": [
+      {
+        "icon": "clock",
+        "text": "Cut admin time by automating job booking and invoicing"
+      },
+      {
+        "icon": "mobile",
+        "text": "Keep drivers connected with a purpose-built mobile app"
+      },
+      {
+        "icon": "integration",
+        "text": "Integrate with your accounting software and telematics"
+      },
+      {
+        "icon": "shield",
+        "text": "Improve customer satisfaction with real-time visibility"
+      }
+    ]
+  },
+
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Transparent Costs —",
+    "subtitleLine2": "Per User, Per Month.",
+    "plans": [
+      {
+        "name": "Starter Plan",
+        "price": "€25",
+        "period": "per user/month",
+        "features": [
+          "Job Management",
+          "Driver Mobile App",
+          "Digital POD",
+          "Customer Portal",
+          "Basic Reporting",
+          "Email Support"
+        ],
+        "highlighted": false
+      },
+      {
+        "name": "Professional Plan",
+        "price": "€45",
+        "period": "per user/month",
+        "features": [
+          "Everything in Starter",
+          "Real-Time Tracking",
+          "ETA Predictions",
+          "Rate Management",
+          "Invoicing Integration",
+          "Priority Support",
+          "API Access",
+          "Multi-Drop Routes"
+        ],
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise Plan",
+        "price": "Custom",
+        "period": "contact us",
+        "features": [
+          "Everything in Professional",
+          "Dedicated Account Manager",
+          "Custom Integrations",
+          "White Label Options",
+          "Advanced Analytics",
+          "SLA Guarantee",
+          "On-Site Training",
+          "Multi-Depot Support"
+        ],
+        "highlighted": false
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Coming Soon",
+    "subtitle": "Register your interest in qHaul.",
+    "description": "qHaul is currently in development and will be launching in 2025. Register your interest to be the first to know when we launch and get early access to the platform.",
+    "buttonText": "Register Interest",
+    "buttonLink": "/#contact"
+  },
+
+  "footer": {
+    "copyright": "© 2024 qHaul. A Quantum Harbour Product.",
+    "links": [
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" },
+      { "label": "Contact", "href": "/#contact" }
+    ]
+  }
+}
