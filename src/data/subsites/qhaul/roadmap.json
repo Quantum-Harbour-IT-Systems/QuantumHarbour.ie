@@ -1,0 +1,153 @@
+{
+  "title": "Product Roadmap",
+  "subtitle": "Our development timeline and upcoming features",
+  "hero": {
+    "title": "Building the Future of Transport Management",
+    "description": "We're building qHaul with input from real haulage operators. Here's what we're working on and what's coming next."
+  },
+  "currentPhase": "beta",
+  "phases": [
+    {
+      "id": "alpha",
+      "name": "Alpha Development",
+      "status": "completed",
+      "dateRange": "Q3 2024",
+      "description": "Core platform development and internal testing",
+      "milestones": [
+        {
+          "title": "Core Job Management",
+          "description": "Basic job booking, editing, and status tracking",
+          "status": "completed"
+        },
+        {
+          "title": "Driver Mobile App v1",
+          "description": "Initial driver app with job viewing and status updates",
+          "status": "completed"
+        },
+        {
+          "title": "Basic Dispatch Board",
+          "description": "Visual dispatch interface for job assignment",
+          "status": "completed"
+        },
+        {
+          "title": "GPS Tracking Foundation",
+          "description": "Real-time location tracking infrastructure",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "beta",
+      "name": "Beta Testing",
+      "status": "in-progress",
+      "dateRange": "Q1 2025",
+      "description": "Testing with select customers and refining features",
+      "milestones": [
+        {
+          "title": "Digital POD Capture",
+          "description": "Photo and signature capture for proof of delivery",
+          "status": "completed"
+        },
+        {
+          "title": "Customer Portal",
+          "description": "Self-service portal for customer job booking and tracking",
+          "status": "in-progress"
+        },
+        {
+          "title": "Rate Management",
+          "description": "Flexible pricing engine with customer-specific rates",
+          "status": "in-progress"
+        },
+        {
+          "title": "Multi-Drop Routes",
+          "description": "Complex route creation with multiple stops",
+          "status": "planned"
+        },
+        {
+          "title": "Beta Partner Onboarding",
+          "description": "Select partners testing in live environments",
+          "status": "in-progress"
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "name": "General Availability",
+      "status": "planned",
+      "dateRange": "Q2 2025",
+      "description": "Public launch with full feature set",
+      "milestones": [
+        {
+          "title": "Invoicing Engine",
+          "description": "Automated invoice generation from completed jobs",
+          "status": "planned"
+        },
+        {
+          "title": "Accounting Integrations",
+          "description": "Sage, QuickBooks, and Xero connections",
+          "status": "planned"
+        },
+        {
+          "title": "ETA Predictions",
+          "description": "Traffic-aware arrival time predictions",
+          "status": "planned"
+        },
+        {
+          "title": "Customer Tracking Links",
+          "description": "Shareable tracking pages for end customers",
+          "status": "planned"
+        },
+        {
+          "title": "Reporting Dashboard",
+          "description": "Business analytics and custom reports",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "name": "Future Development",
+      "status": "planned",
+      "dateRange": "Q3 2025+",
+      "description": "Planned features based on customer feedback",
+      "milestones": [
+        {
+          "title": "Subcontractor Management",
+          "description": "Manage and dispatch to subcontractor drivers",
+          "status": "planned"
+        },
+        {
+          "title": "Load Planning",
+          "description": "Visual load planning with weight distribution",
+          "status": "planned"
+        },
+        {
+          "title": "Telematics Integration",
+          "description": "Connect with major telematics providers",
+          "status": "planned"
+        },
+        {
+          "title": "Advanced Analytics",
+          "description": "AI-powered insights and recommendations",
+          "status": "planned"
+        },
+        {
+          "title": "Multi-Depot Support",
+          "description": "Manage operations across multiple locations",
+          "status": "planned"
+        },
+        {
+          "title": "API & Webhooks",
+          "description": "Full API access for custom integrations",
+          "status": "planned"
+        }
+      ]
+    }
+  ],
+  "requestFeature": {
+    "title": "Have a Feature Request?",
+    "description": "We're building qHaul based on real feedback from transport operators. If there's something you need that's not on our roadmap, let us know.",
+    "ctaText": "Submit Feature Request",
+    "ctaLink": "/#contact"
+  }
+}

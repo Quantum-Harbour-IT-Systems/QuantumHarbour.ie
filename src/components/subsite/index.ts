@@ -1,3 +1,4 @@
+export { SubsiteHeader } from './SubsiteHeader';
 export { SubsiteHero } from './SubsiteHero';
 export { SubsiteFeatureSection } from './SubsiteFeatureSection';
 export { SubsiteWhyChoose } from './SubsiteWhyChoose';

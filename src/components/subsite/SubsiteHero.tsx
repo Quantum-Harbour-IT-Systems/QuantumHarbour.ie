@@ -1,10 +1,8 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { Button } from '../common';
 import styles from './SubsiteHero.module.css';
 
 interface SubsiteHeroProps {
-  siteName: string;
   title: string;
   titleLine2?: string;
   description: string;
@@ -15,7 +13,6 @@ interface SubsiteHeroProps {
 }
 
 export function SubsiteHero({
-  siteName,
   title,
   titleLine2,
   description,
@@ -33,14 +30,6 @@ export function SubsiteHero({
         />
       )}
       <div className={styles.overlay} />
-
-      <header className={styles.header}>
-        <Link to="/" className={styles.parentLink}>
-          <img src="/logo.svg" alt="Quantum Harbour" className={styles.parentLogo} />
-        </Link>
-        <span className={styles.divider}>|</span>
-        <span className={styles.siteName}>{siteName}</span>
-      </header>
 
       <div className={styles.container}>
         <motion.h1

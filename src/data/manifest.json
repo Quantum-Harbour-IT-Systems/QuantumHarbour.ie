@@ -1,0 +1,191 @@
+{
+  "$schema": "./manifest.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2024-11-28T00:00:00Z",
+
+  "site": {
+    "id": "quantum-harbour",
+    "name": "Quantum Harbour",
+    "tagline": "Proactive IT that keeps your business running day and night.",
+    "domain": "quantumharbour.ie",
+    "locale": "en-IE",
+    "timezone": "Europe/Dublin"
+  },
+
+  "branding": {
+    "logo": {
+      "primary": "/logo.svg",
+      "light": "/logo-light.svg",
+      "dark": "/logo-dark.svg",
+      "favicon": "/favicon.ico"
+    },
+    "colors": {
+      "primary": "#072a59",
+      "secondary": "#190d4e",
+      "accent": "#d9d9d9",
+      "success": "#22c55e",
+      "warning": "#fbbf24",
+      "error": "#ef4444",
+      "text": {
+        "primary": "#ffffff",
+        "secondary": "rgba(255, 255, 255, 0.8)",
+        "muted": "rgba(255, 255, 255, 0.6)"
+      },
+      "background": {
+        "primary": "#072a59",
+        "secondary": "#190d4e",
+        "card": "rgba(255, 255, 255, 0.05)"
+      }
+    },
+    "fonts": {
+      "heading": "Space Grotesk",
+      "body": "Work Sans"
+    }
+  },
+
+  "navigation": {
+    "dataFile": "navigation.json",
+    "mainNav": [
+      { "label": "Services", "href": "/#services", "type": "anchor" },
+      { "label": "Pricing", "href": "/#pricing", "type": "anchor" },
+      { "label": "Case Studies", "href": "/case-studies", "type": "page" },
+      { "label": "Sectors", "href": "/sectors", "type": "page" },
+      { "label": "About", "href": "/#about", "type": "anchor" },
+      { "label": "Contact", "href": "/#contact", "type": "anchor" }
+    ],
+    "footerSections": ["quickLinks", "resources", "sectors", "clients"]
+  },
+
+  "pages": {
+    "home": {
+      "path": "/",
+      "title": "Quantum Harbour - Managed IT Services",
+      "sections": ["hero", "services", "extendedServices", "whyUs", "pricing", "testimonials", "about", "contact"],
+      "dataFiles": {
+        "services": "services.json",
+        "extendedServices": "extendedServices.json",
+        "whyUs": "whyUs.json",
+        "pricing": "pricing.json",
+        "testimonials": "testimonials.json",
+        "about": "about.json"
+      }
+    },
+    "calculator": {
+      "path": "/calculator",
+      "title": "Pricing Calculator",
+      "dataFile": "calculator.json"
+    },
+    "sectors": {
+      "path": "/sectors",
+      "title": "Industry Sectors",
+      "dataFile": "sectors.json",
+      "detailPath": "/sectors/:slug"
+    },
+    "services": {
+      "path": "/services/:slug",
+      "title": "Service Details",
+      "dataFile": "serviceDetails.json"
+    },
+    "partners": {
+      "path": "/partners",
+      "title": "Our Partners",
+      "dataFile": "partners.json",
+      "detailPath": "/partners/:slug"
+    },
+    "products": {
+      "path": "/products",
+      "title": "Our Products",
+      "dataFile": "products.json",
+      "detailPath": "/products/:slug",
+      "subsitePath": "/products/:slug/site"
+    },
+    "caseStudies": {
+      "path": "/case-studies",
+      "title": "Case Studies",
+      "dataFile": "caseStudies.json",
+      "detailPath": "/case-studies/:slug"
+    },
+    "faq": {
+      "path": "/faq",
+      "title": "Frequently Asked Questions",
+      "dataFile": "faqs.json"
+    },
+    "clientPortal": {
+      "path": "/client-portal",
+      "title": "Client Portal",
+      "dataFile": "clientPortal.json"
+    },
+    "resources": {
+      "path": "/resources",
+      "title": "Resources & Downloads",
+      "dataFile": "resources.json"
+    },
+    "blog": {
+      "path": "/insights",
+      "title": "Insights & Articles",
+      "dataFile": "blog.json",
+      "detailPath": "/insights/:slug"
+    },
+    "process": {
+      "path": "/how-we-work",
+      "title": "How We Work",
+      "dataFile": "process.json"
+    },
+    "careers": {
+      "path": "/careers",
+      "title": "Careers",
+      "dataFile": "careers.json"
+    }
+  },
+
+  "subsites": [
+    {
+      "id": "qmechanic",
+      "slug": "qmechanic",
+      "name": "qMechanic",
+      "path": "/products/qmechanic/site",
+      "manifestFile": "subsites/qmechanic.json",
+      "status": "active"
+    },
+    {
+      "id": "qhaul",
+      "slug": "qhaul",
+      "name": "qHaul",
+      "path": "/products/qhaul/site",
+      "manifestFile": "subsites/qhaul.json",
+      "status": "active"
+    }
+  ],
+
+  "contact": {
+    "email": "hello@quantumharbour.ie",
+    "phone": "+353 1 234 5678",
+    "emergencyPhone": "+353 1 234 5679",
+    "address": {
+      "street": "",
+      "city": "Dublin",
+      "country": "Ireland"
+    },
+    "social": {
+      "linkedin": "https://linkedin.com/company/quantumharbour",
+      "twitter": "https://twitter.com/quantumharbour"
+    }
+  },
+
+  "seo": {
+    "defaultTitle": "Quantum Harbour - Managed IT Services Ireland",
+    "titleTemplate": "%s | Quantum Harbour",
+    "defaultDescription": "Managed IT, Cybersecurity, and Hosting solutions for Irish and UK businesses. Transparent pricing, real protection, expert support.",
+    "keywords": ["managed IT", "cybersecurity", "IT support", "Ireland", "Dublin", "MSP", "cloud hosting"],
+    "ogImage": "/og-image.jpg"
+  },
+
+  "legal": {
+    "companyName": "Quantum Harbour Ltd",
+    "registrationNumber": "",
+    "vatNumber": "",
+    "privacyPolicy": "/privacy",
+    "termsOfService": "/terms",
+    "cookiePolicy": "/cookies"
+  }
+}

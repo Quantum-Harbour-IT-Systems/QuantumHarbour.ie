@@ -3,19 +3,34 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import navigationData from '../../data/navigation.json';
 import styles from './Header.module.css';
 
+interface DropdownItem {
+  label: string;
+  href: string;
+}
+
 interface NavItem {
   label: string;
   href: string;
+  dropdown?: DropdownItem[];
 }
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('');
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const location = useLocation();
   const navigate = useNavigate();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  const handleDropdownToggle = (label: string) => {
+    setOpenDropdown(openDropdown === label ? null : label);
+  };
+
+  const closeDropdown = () => {
+    setOpenDropdown(null);
+  };
 
   // Clear active section when navigating away from home
   useEffect(() => {
@@ -142,14 +157,49 @@ export function Header() {
         <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
           <ul className={styles.navList}>
             {navItems.map((item) => (
-              <li key={item.href}>
-                <a
-                  href={item.href}
-                  className={`${styles.navLink} ${isActive(item.href) ? styles.active : ''}`}
-                  onClick={(e) => handleNavClick(e, item.href)}
-                >
-                  {item.label}
-                </a>
+              <li
+                key={item.href}
+                className={item.dropdown ? styles.dropdownContainer : undefined}
+                onMouseEnter={item.dropdown ? () => setOpenDropdown(item.label) : undefined}
+                onMouseLeave={item.dropdown ? closeDropdown : undefined}
+              >
+                {item.dropdown ? (
+                  <>
+                    <button
+                      className={`${styles.navLink} ${styles.dropdownTrigger} ${openDropdown === item.label ? styles.dropdownOpen : ''}`}
+                      onClick={() => handleDropdownToggle(item.label)}
+                      aria-expanded={openDropdown === item.label}
+                      aria-haspopup="true"
+                    >
+                      {item.label}
+                      <span className={styles.dropdownArrow}>▾</span>
+                    </button>
+                    <ul className={`${styles.dropdown} ${openDropdown === item.label ? styles.dropdownVisible : ''}`}>
+                      {item.dropdown.map((dropdownItem) => (
+                        <li key={dropdownItem.href}>
+                          <a
+                            href={dropdownItem.href}
+                            className={`${styles.dropdownLink} ${isActive(dropdownItem.href) ? styles.active : ''}`}
+                            onClick={(e) => {
+                              handleNavClick(e, dropdownItem.href);
+                              closeDropdown();
+                            }}
+                          >
+                            {dropdownItem.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                ) : (
+                  <a
+                    href={item.href}
+                    className={`${styles.navLink} ${isActive(item.href) ? styles.active : ''}`}
+                    onClick={(e) => handleNavClick(e, item.href)}
+                  >
+                    {item.label}
+                  </a>
+                )}
               </li>
             ))}
           </ul>

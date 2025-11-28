@@ -1,0 +1,90 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Everything you need to know about qHaul",
+  "categories": [
+    {
+      "name": "General",
+      "faqs": [
+        {
+          "question": "What is qHaul?",
+          "answer": "qHaul is a complete transport management system designed for haulage operators. It covers everything from job booking and dispatch to driver apps, real-time tracking, and automated invoicing. It's built specifically for the Irish and UK transport industry."
+        },
+        {
+          "question": "When will qHaul be available?",
+          "answer": "qHaul is currently in development and scheduled for launch in Q2 2025. Register your interest to be notified when we launch and get early access to the platform."
+        },
+        {
+          "question": "Who is qHaul designed for?",
+          "answer": "qHaul is designed for haulage companies of all sizes — from owner-operators with a few vehicles to large fleets with multiple depots. It's built for transport managers, dispatchers, drivers, and anyone involved in the daily operations of a haulage business."
+        },
+        {
+          "question": "How is qHaul different from other TMS systems?",
+          "answer": "qHaul is built from the ground up for the Irish and UK market. We understand local requirements, common workflows, and the real challenges of running a haulage business. Plus, we integrate seamlessly with qMechanic for complete fleet management."
+        }
+      ]
+    },
+    {
+      "name": "Features",
+      "faqs": [
+        {
+          "question": "What features will qHaul include at launch?",
+          "answer": "At launch, qHaul will include: job booking and management, smart dispatch, driver mobile app with POD capture, real-time GPS tracking, customer portal, rate management, invoicing, and comprehensive reporting."
+        },
+        {
+          "question": "Will there be a mobile app for drivers?",
+          "answer": "Yes, qHaul Driver is a dedicated mobile app for drivers. It shows job details, provides turn-by-turn navigation, enables digital proof of delivery with photos and signatures, and keeps drivers connected with dispatch in real-time."
+        },
+        {
+          "question": "Can customers track their deliveries?",
+          "answer": "Absolutely. qHaul includes a customer portal where your customers can book jobs, view job history, and track active deliveries in real-time. You can also send them direct tracking links for specific deliveries."
+        },
+        {
+          "question": "Does qHaul support multi-drop routes?",
+          "answer": "Yes, qHaul fully supports multi-drop routes. You can create complex delivery routes with multiple collection and delivery points, and the system will help optimize the sequence for efficiency."
+        }
+      ]
+    },
+    {
+      "name": "Integrations",
+      "faqs": [
+        {
+          "question": "Will qHaul integrate with accounting software?",
+          "answer": "Yes, we're planning integrations with popular accounting packages including Sage, QuickBooks, and Xero. Invoice data will sync automatically, reducing double-entry and improving cash flow visibility."
+        },
+        {
+          "question": "Does qHaul integrate with qMechanic?",
+          "answer": "Yes, qHaul and qMechanic are designed to work together seamlessly. Vehicle data, compliance status, and defect information flow between the systems automatically, giving you complete visibility of your fleet."
+        },
+        {
+          "question": "What about telematics integration?",
+          "answer": "qHaul will integrate with major telematics providers including Samsara, Webfleet, and Masternaut. This allows real-time vehicle tracking without additional hardware if you already have telematics installed."
+        },
+        {
+          "question": "Is there an API available?",
+          "answer": "Yes, qHaul will include a comprehensive REST API for custom integrations. This allows you to connect qHaul with your existing systems, whether that's a custom TMS, warehouse management system, or any other software."
+        }
+      ]
+    },
+    {
+      "name": "Pricing & Availability",
+      "faqs": [
+        {
+          "question": "How much will qHaul cost?",
+          "answer": "qHaul will be priced per user, per month. We're planning three tiers: Starter (€25/user), Professional (€45/user), and Enterprise (custom pricing). Early registrations may receive special launch pricing."
+        },
+        {
+          "question": "How can I register my interest?",
+          "answer": "You can register your interest using the form on our website. We'll keep you updated on development progress and notify you as soon as qHaul is ready for early access."
+        },
+        {
+          "question": "Will there be a beta program?",
+          "answer": "Yes, we're planning a beta program before general availability. Register your interest to be considered for early access. Beta users will help shape the final product and receive preferential pricing."
+        },
+        {
+          "question": "What support will be available?",
+          "answer": "All plans will include email support and access to our knowledge base. Professional and Enterprise plans include priority support with faster response times. Enterprise customers get dedicated account managers."
+        }
+      ]
+    }
+  ]
+}

@@ -2,8 +2,19 @@
   "mainNav": [
     { "label": "Services", "href": "/#services" },
     { "label": "Pricing", "href": "/#pricing" },
-    { "label": "Case Studies", "href": "/case-studies" },
     { "label": "Sectors", "href": "/sectors" },
+    {
+      "label": "Resources",
+      "href": "/resources",
+      "dropdown": [
+        { "label": "Case Studies", "href": "/case-studies" },
+        { "label": "Insights", "href": "/insights" },
+        { "label": "Resources", "href": "/resources" },
+        { "label": "Products", "href": "/products" },
+        { "label": "Partners", "href": "/partners" },
+        { "label": "FAQ", "href": "/faq" }
+      ]
+    },
     { "label": "About", "href": "/#about" },
     { "label": "Contact", "href": "/#contact" }
   ],

@@ -1,15 +1,74 @@
 {
-  "id": "qhaul",
-  "slug": "qhaul",
-  "name": "qHaul",
-  "tagline": "Transport Management System",
-  "parentProduct": "qhaul",
+  "$schema": "../subsite.schema.json",
+  "version": "1.1.0",
+  "lastUpdated": "2024-11-28T00:00:00Z",
+
+  "site": {
+    "id": "qhaul",
+    "slug": "qhaul",
+    "name": "qHaul",
+    "tagline": "Transport Management System",
+    "parentSite": "quantum-harbour",
+    "parentProduct": "qhaul",
+    "status": "coming-soon",
+    "launchDate": "2025-06-01"
+  },
 
   "branding": {
-    "primaryColor": "#072a59",
-    "secondaryColor": "#190d4e",
-    "accentColor": "#d9d9d9",
-    "logo": "/products/qhaul/logo.svg"
+    "logo": {
+      "primary": "/products/qhaul/logo.svg",
+      "light": "/products/qhaul/logo-light.svg",
+      "icon": "/products/qhaul/icon.svg"
+    },
+    "colors": {
+      "primary": "#072a59",
+      "secondary": "#190d4e",
+      "accent": "#d9d9d9"
+    }
+  },
+
+  "seo": {
+    "title": "qHaul - Transport Management System",
+    "description": "End-to-end transport management system for haulage operators. Job booking, driver apps, real-time tracking, and automated invoicing.",
+    "keywords": ["transport management", "haulage software", "fleet tracking", "driver app", "logistics", "Ireland"]
+  },
+
+  "navigation": {
+    "mainNav": [
+      { "label": "Features", "href": "#features" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "FAQ", "href": "/faq" },
+      { "label": "Register Interest", "href": "#contact" }
+    ]
+  },
+
+  "pages": {
+    "home": {
+      "path": "/",
+      "title": "qHaul - Transport Management System",
+      "sections": ["hero", "features", "whyChoose", "pricing", "cta"]
+    },
+    "faq": {
+      "path": "/faq",
+      "title": "Frequently Asked Questions",
+      "dataFile": "faq.json"
+    },
+    "features": {
+      "path": "/features",
+      "title": "Features",
+      "dataFile": "features.json"
+    },
+    "roadmap": {
+      "path": "/roadmap",
+      "title": "Product Roadmap",
+      "dataFile": "roadmap.json"
+    }
+  },
+
+  "dataFiles": {
+    "faq": "qhaul/faq.json",
+    "features": "qhaul/features.json",
+    "roadmap": "qhaul/roadmap.json"
   },
 
   "hero": {
@@ -195,5 +254,18 @@
       { "label": "Terms of Service", "href": "/terms" },
       { "label": "Contact", "href": "/#contact" }
     ]
+  },
+
+  "contact": {
+    "email": "info@qhaul.ie",
+    "salesEmail": "sales@qhaul.ie",
+    "waitlistUrl": "https://forms.qhaul.ie/waitlist"
+  },
+
+  "externalLinks": {
+    "appStore": null,
+    "playStore": null,
+    "webApp": null,
+    "documentation": null
   }
 }

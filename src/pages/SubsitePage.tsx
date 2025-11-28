@@ -1,6 +1,7 @@
 import { useParams, Navigate } from 'react-router-dom';
 import { BackToTop } from '../components/common';
 import {
+  SubsiteHeader,
   SubsiteHero,
   SubsiteFeatureSection,
   SubsiteWhyChoose,
@@ -13,8 +14,8 @@ import {
 import qmechanicData from '../data/subsites/qmechanic.json';
 import qhaulData from '../data/subsites/qhaul.json';
 
-// Map of available subsites
-const subsiteMap: Record<string, typeof qmechanicData> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const subsiteMap: Record<string, any> = {
   qmechanic: qmechanicData,
   qhaul: qhaulData,
 };
@@ -60,15 +61,36 @@ interface FooterSection {
   links?: { label: string; href: string }[];
 }
 
+interface NavItem {
+  label: string;
+  href: string;
+}
+
 interface SubsiteData {
-  id: string;
-  slug: string;
-  name: string;
-  tagline: string;
+  site: {
+    id: string;
+    slug: string;
+    name: string;
+    tagline: string;
+    parentSite: string;
+    parentProduct: string;
+    status: string;
+    launchDate: string;
+  };
   branding: {
-    primaryColor: string;
-    secondaryColor: string;
-    accentColor: string;
+    logo: {
+      primary: string;
+      light: string;
+      icon: string;
+    };
+    colors: {
+      primary: string;
+      secondary: string;
+      accent: string;
+    };
+  };
+  navigation: {
+    mainNav: NavItem[];
   };
   hero: {
     title: string;
@@ -100,30 +122,38 @@ export function SubsitePage() {
     <main
       style={
         {
-          '--color-primary': subsiteData.branding.primaryColor,
-          '--color-secondary': subsiteData.branding.secondaryColor,
+          '--color-primary': subsiteData.branding.colors.primary,
+          '--color-secondary': subsiteData.branding.colors.secondary,
         } as React.CSSProperties
       }
     >
+      <SubsiteHeader
+        siteName={subsiteData.site.name}
+        siteSlug={subsiteData.site.slug}
+        navigation={subsiteData.navigation.mainNav}
+        primaryColor={subsiteData.branding.colors.primary}
+      />
+
       <SubsiteHero
-        siteName={subsiteData.name}
         title={subsiteData.hero.title}
         titleLine2={subsiteData.hero.titleLine2}
         description={subsiteData.hero.description}
         ctaText={subsiteData.hero.ctaText}
         ctaLink={subsiteData.hero.ctaLink}
         backgroundImage={subsiteData.hero.backgroundImage}
-        primaryColor={subsiteData.branding.primaryColor}
+        primaryColor={subsiteData.branding.colors.primary}
       />
 
-      {subsiteData.featureSections.map((section: FeatureSection) => (
-        <SubsiteFeatureSection
-          key={section.id}
-          title={section.title}
-          subtitle={section.subtitle}
-          features={section.features}
-        />
-      ))}
+      <div id="features">
+        {subsiteData.featureSections.map((section: FeatureSection) => (
+          <SubsiteFeatureSection
+            key={section.id}
+            title={section.title}
+            subtitle={section.subtitle}
+            features={section.features}
+          />
+        ))}
+      </div>
 
       <SubsiteWhyChoose
         title={subsiteData.whyChoose.title}
@@ -151,7 +181,7 @@ export function SubsitePage() {
       <SubsiteFooter
         copyright={subsiteData.footer.copyright}
         links={subsiteData.footer.links}
-        primaryColor={subsiteData.branding.primaryColor}
+        primaryColor={subsiteData.branding.colors.primary}
       />
 
       <BackToTop />

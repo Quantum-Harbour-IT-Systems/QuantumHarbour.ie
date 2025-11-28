@@ -21,6 +21,8 @@ import {
   ProcessPage,
   CareersPage,
   SubsitePage,
+  SubsiteFAQPage,
+  SubsiteFeaturesPage,
 } from './pages';
 
 // Layout wrapper for main site pages
@@ -42,6 +44,8 @@ function App() {
       <Routes>
         {/* Product subsites - rendered without main Header/Footer */}
         <Route path="/products/:productSlug/site" element={<SubsitePage />} />
+        <Route path="/products/:productSlug/site/faq" element={<SubsiteFAQPage />} />
+        <Route path="/products/:productSlug/site/features" element={<SubsiteFeaturesPage />} />
 
         {/* Main site pages with Header/Footer */}
         <Route element={<MainLayout />}>

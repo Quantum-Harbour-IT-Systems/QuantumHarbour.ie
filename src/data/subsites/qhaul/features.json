@@ -1,0 +1,248 @@
+{
+  "title": "Features",
+  "subtitle": "Everything you need to manage your transport operations",
+  "hero": {
+    "title": "Built for Modern Haulage",
+    "description": "qHaul brings together job management, driver apps, tracking, and invoicing in one integrated platform. Explore the features that will transform your transport operations."
+  },
+  "featureCategories": [
+    {
+      "id": "dispatch",
+      "title": "Dispatch & Job Management",
+      "icon": "dispatch",
+      "description": "Complete job booking and dispatch system",
+      "features": [
+        {
+          "title": "Job Booking",
+          "description": "Book and manage transport jobs with full customer and load details.",
+          "details": [
+            "Quick job entry forms",
+            "Customer and route templates",
+            "Load weight and dimensions",
+            "Special instructions",
+            "Document attachments"
+          ]
+        },
+        {
+          "title": "Smart Dispatch",
+          "description": "Intelligent job assignment to the right driver and vehicle.",
+          "details": [
+            "Driver availability tracking",
+            "Vehicle capacity matching",
+            "Location-based assignment",
+            "Workload balancing",
+            "Automatic suggestions"
+          ]
+        },
+        {
+          "title": "Multi-Drop Routes",
+          "description": "Create and manage complex routes with multiple stops.",
+          "details": [
+            "Unlimited stops per route",
+            "Sequence optimization",
+            "Time windows per stop",
+            "Collection and delivery mix",
+            "Real-time resequencing"
+          ]
+        },
+        {
+          "title": "Rate Management",
+          "description": "Flexible pricing for any job type.",
+          "details": [
+            "Customer-specific rates",
+            "Route-based pricing",
+            "Weight and distance rates",
+            "Fuel surcharges",
+            "Automatic calculations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "driver",
+      "title": "Driver Mobile App",
+      "icon": "mobile",
+      "description": "Everything drivers need in their pocket",
+      "features": [
+        {
+          "title": "Job Details",
+          "description": "All job information available on the driver's phone.",
+          "details": [
+            "Customer contact details",
+            "Collection/delivery addresses",
+            "Load information",
+            "Special instructions",
+            "Document attachments"
+          ]
+        },
+        {
+          "title": "Navigation",
+          "description": "Turn-by-turn directions to every stop.",
+          "details": [
+            "One-tap navigation launch",
+            "Traffic-aware routing",
+            "Truck-specific routes",
+            "Recent locations",
+            "Offline maps"
+          ]
+        },
+        {
+          "title": "Digital POD",
+          "description": "Capture proof of delivery electronically.",
+          "details": [
+            "Signature capture",
+            "Photo documentation",
+            "Timestamp and GPS",
+            "Delivery notes",
+            "Instant sync to office"
+          ]
+        },
+        {
+          "title": "Status Updates",
+          "description": "Keep everyone informed in real-time.",
+          "details": [
+            "One-tap status changes",
+            "Automatic notifications",
+            "Delay reporting",
+            "Issue flagging",
+            "Customer updates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tracking",
+      "title": "Real-Time Tracking",
+      "icon": "location",
+      "description": "Know where everything is, all the time",
+      "features": [
+        {
+          "title": "Live Fleet Map",
+          "description": "See your entire fleet on one screen.",
+          "details": [
+            "Real-time vehicle positions",
+            "Current job status",
+            "Driver information",
+            "Route visualization",
+            "Traffic overlay"
+          ]
+        },
+        {
+          "title": "ETA Predictions",
+          "description": "Accurate arrival time estimates.",
+          "details": [
+            "Traffic-aware calculations",
+            "Historical data learning",
+            "Automatic customer notifications",
+            "Delay predictions",
+            "Continuous updates"
+          ]
+        },
+        {
+          "title": "Geofence Alerts",
+          "description": "Automatic notifications for arrivals and departures.",
+          "details": [
+            "Custom geofence zones",
+            "Arrival notifications",
+            "Departure alerts",
+            "Dwell time tracking",
+            "Customer-specific zones"
+          ]
+        },
+        {
+          "title": "Customer Tracking",
+          "description": "Let customers track their own deliveries.",
+          "details": [
+            "Shareable tracking links",
+            "Branded tracking pages",
+            "ETA display",
+            "Delivery confirmation",
+            "No login required"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer",
+      "title": "Customer Portal",
+      "icon": "users",
+      "description": "Self-service for your customers",
+      "features": [
+        {
+          "title": "Online Booking",
+          "description": "Customers book jobs directly through the portal.",
+          "details": [
+            "24/7 job submission",
+            "Rate quotation",
+            "Booking confirmation",
+            "Document upload",
+            "Recurring job templates"
+          ]
+        },
+        {
+          "title": "Job History",
+          "description": "Complete history of all customer jobs.",
+          "details": [
+            "Searchable job archive",
+            "POD download",
+            "Invoice access",
+            "Cost analysis",
+            "Export to Excel"
+          ]
+        },
+        {
+          "title": "Live Tracking",
+          "description": "Customers track active deliveries in real-time.",
+          "details": [
+            "Multi-job dashboard",
+            "Map view",
+            "ETA display",
+            "Status updates",
+            "Notification preferences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invoicing",
+      "title": "Invoicing & Reporting",
+      "icon": "document",
+      "description": "Get paid faster with automated invoicing",
+      "features": [
+        {
+          "title": "Automated Invoicing",
+          "description": "Generate invoices automatically from completed jobs.",
+          "details": [
+            "Job-based invoicing",
+            "Batch invoicing",
+            "Custom invoice templates",
+            "PDF generation",
+            "Email delivery"
+          ]
+        },
+        {
+          "title": "Accounting Integration",
+          "description": "Sync with your accounting software.",
+          "details": [
+            "Sage integration",
+            "QuickBooks sync",
+            "Xero connection",
+            "Automatic export",
+            "Payment matching"
+          ]
+        },
+        {
+          "title": "Reporting Dashboard",
+          "description": "Business insights at your fingertips.",
+          "details": [
+            "Revenue analysis",
+            "Driver productivity",
+            "Customer profitability",
+            "Route efficiency",
+            "Custom report builder"
+          ]
+        }
+      ]
+    }
+  ]
+}
