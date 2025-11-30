@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import { Header, Footer } from './components/layout';
 import { BackToTop, ScrollToTop } from './components/common';
 import {
@@ -39,7 +39,7 @@ function MainLayout() {
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/QuantumHarbour.ie">
       <ScrollToTop />
       <Routes>
         {/* Product subsites - rendered without main Header/Footer */}
@@ -69,7 +69,7 @@ function App() {
           <Route path="/careers" element={<CareersPage />} />
         </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
