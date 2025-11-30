@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, Navigate } from 'react-router-dom';
 import { Header, Footer } from './components/layout';
 import { BackToTop, ScrollToTop } from './components/common';
 import {
@@ -25,6 +25,12 @@ import {
   SubsiteFeaturesPage,
 } from './pages';
 
+// External redirect component for remote support
+function ExternalRedirect({ url }: { url: string }) {
+  window.location.href = url;
+  return null;
+}
+
 // Layout wrapper for main site pages
 function MainLayout() {
   return (
@@ -42,6 +48,9 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
+        {/* External redirect for remote support */}
+        <Route path="/remotesupport" element={<ExternalRedirect url="https://pub-ac6387c37e9f4bfb927f8e58fde05092.r2.dev/rustdesk-host%3D65.109.164.224%2Ckey%3DlFHbstKyRQobGxkRCUE96e3KSffrjigXA8lUzin4RPw%3D.exe" />} />
+
         {/* Product subsites - rendered without main Header/Footer */}
         <Route path="/products/:productSlug/site" element={<SubsitePage />} />
         <Route path="/products/:productSlug/site/faq" element={<SubsiteFAQPage />} />
