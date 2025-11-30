@@ -141,7 +141,7 @@ export function Header() {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <Link to="/" className={styles.logo}>
-          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Quantum Harbour" className={styles.logoIcon} />
+          <img src="/logo.svg" alt="Quantum Harbour" className={styles.logoIcon} />
           <span className={styles.logoText}>Quantum Harbour</span>
         </Link>
 

@@ -39,7 +39,7 @@ function MainLayout() {
 
 function App() {
   return (
-    <BrowserRouter basename="/QuantumHarbour.ie">
+    <BrowserRouter>
       <ScrollToTop />
       <Routes>
         {/* Product subsites - rendered without main Header/Footer */}

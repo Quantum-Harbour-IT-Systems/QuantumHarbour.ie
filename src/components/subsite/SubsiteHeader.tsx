@@ -97,7 +97,7 @@ export function SubsiteHeader({
       <div className={styles.container}>
         <div className={styles.brand}>
           <Link to="/" className={styles.parentLink}>
-            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Quantum Harbour" className={styles.parentLogo} />
+            <img src="/logo.svg" alt="Quantum Harbour" className={styles.parentLogo} />
           </Link>
           <span className={styles.divider}>|</span>
           <Link to={basePath} className={styles.siteName}>
