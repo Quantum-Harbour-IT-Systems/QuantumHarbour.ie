@@ -11,16 +11,8 @@
           "description": "Log in to view your tickets, submit new requests, and track progress on open issues.",
           "icon": "ticket",
           "linkType": "external",
-          "url": "https://portal.quantumharbour.ie",
+          "url": "https://quantumharbour.itclientportal.com/ClientPortal/Login.aspx",
           "buttonText": "Open Portal"
-        },
-        {
-          "title": "Submit a Ticket",
-          "description": "Create a new support request directly. You'll receive a ticket number and email confirmation.",
-          "icon": "plus",
-          "linkType": "external",
-          "url": "https://portal.quantumharbour.ie/new-ticket",
-          "buttonText": "New Ticket"
         },
         {
           "title": "Email Support",
@@ -40,7 +32,7 @@
           "description": "Allow our technicians to connect to your computer securely for hands-on troubleshooting.",
           "icon": "remote",
           "linkType": "external",
-          "url": "https://remote.quantumharbour.ie",
+          "url": "https://pub-ac6387c37e9f4bfb927f8e58fde05092.r2.dev/rustdesk-host%3D65.109.164.224%2Ckey%3DlFHbstKyRQobGxkRCUE96e3KSffrjigXA8lUzin4RPw%3D.exe",
           "buttonText": "Start Session"
         },
         {
@@ -48,7 +40,7 @@
           "description": "Download and install our remote monitoring agent if it's not already on your device.",
           "icon": "download",
           "linkType": "external",
-          "url": "https://portal.quantumharbour.ie/downloads/agent",
+          "url": "https://merlot.rmm.datto.com/download-agent/windows/a038f88e-2ed1-40a3-b11e-9622daec4107",
           "buttonText": "Download"
         }
       ]
@@ -75,7 +67,7 @@
       "Have your company name and brief description ready",
       "Stay by your phone for callback if needed"
     ],
-    "phone": "+353 91 123 456",
+    "phone": "+353 87 295 9063",
     "note": "Sev 1 calls are answered 24/7. Use this line only for genuine business-critical emergencies."
   },
   "resources": {
