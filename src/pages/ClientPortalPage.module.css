@@ -206,3 +206,10 @@
     font-size: var(--text-2xl);
   }
 }
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-md);
+}

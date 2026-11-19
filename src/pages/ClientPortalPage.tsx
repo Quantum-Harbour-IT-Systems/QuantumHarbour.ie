@@ -1,4 +1,4 @@
-import { Section, PageHero, AnimatedSection, StaggerChildren, FadeInUp } from '../components/common';
+import { Section, PageHero, Button, AnimatedSection, StaggerChildren, FadeInUp } from '../components/common';
 import clientPortalData from '../data/clientPortal.json';
 import styles from './ClientPortalPage.module.css';
 
@@ -21,13 +21,30 @@ interface ResourceLink {
   url: string;
 }
 
+const portalItems = clientPortalData.sections.flatMap((s) => s.items);
+const agent = portalItems.find((i) => i.title === 'Download Agent');
+const remote = portalItems.find((i) => i.title === 'Remote Assistance');
+
 export function ClientPortalPage() {
   return (
     <main>
       <PageHero
         title={clientPortalData.heroTitle}
         subtitle={clientPortalData.heroSubtitle}
-      />
+      >
+        <div className={styles.heroActions}>
+          {agent && (
+            <Button href={agent.url} size="lg">
+              Download Agent (Windows)
+            </Button>
+          )}
+          {remote && (
+            <Button href={remote.url} variant="secondary" size="lg">
+              Start Remote Session
+            </Button>
+          )}
+        </div>
+      </PageHero>
 
       <Section>
         <AnimatedSection>
