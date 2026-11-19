@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import { Header, Footer } from './components/layout';
 import { BackToTop, ScrollToTop } from './components/common';
 import {
